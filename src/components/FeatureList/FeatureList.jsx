@@ -23,7 +23,7 @@ class FeatureList extends Component {
     // "No data"/loading state - for when the API has an error, or connection is slow.
     let noDataElement;
     if(this.props.items.length === 0) {
-      noDataElement = <li class="feature-list__nodata"></li>;
+      noDataElement = <li className="feature-list__nodata"></li>;
     }
     return (
       <ul className='feature-list' {...attrs}>
